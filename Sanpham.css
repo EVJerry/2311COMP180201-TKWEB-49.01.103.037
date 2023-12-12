@@ -1,0 +1,57 @@
+.hh-box-image{width:170px;height:230px;margin-top:20px;}
+.hh-box{
+Width: 200px; height:260px; text-align: center;
+border:1px solid blue; position:relative;
+display: inline-block;
+margin: 33px 5px 5px 5px;
+
+
+}
+.hh-box:hover{
+    border-radius: 7px; box-shadow: 0 0 10px pink;
+}
+.hh-box-icon{
+    position: absolute ; top: 0;right:0;width:75px;
+}
+.hh-box-price{
+    position: absolute; bottom:10px ; left:5px ; font-weight: border; color:aqua;box-shadow: 0 0 10px rgb(212, 86, 86);background-color: rgb(214, 144, 144) ;
+}
+.hh-box-name{
+   
+    position:absolute; top:-19.5px;left:-1px;width:inherit;
+    background-color: aqua;
+}
+header {
+    background-image: url(https://img4.thuthuatphanmem.vn/uploads/2020/06/22/hinh-nen-xanh-duong-de-thuong_092909979.png);
+    padding: 20px;
+    text-align: center;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    text-align: center;
+  }
+  .menu{
+    background-color: lightcyan;
+    min-height: 25px;
+}
+    .menu li{
+        display: inline;
+        padding: 25px 25px;
+        line-height: 25px;
+    }
+    .menu li a{
+        text-decoration: aliceblue;
+    }
+    .menu li a:hover{
+        color:blueviolet;
+    }
+  body{
+    padding: 20px;
+    background-color: aquamarine;
+  }
+  footer {
+    background-color: lightpink;
+    padding: 20px;
+  }
